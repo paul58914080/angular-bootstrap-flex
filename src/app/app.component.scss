@@ -11,22 +11,29 @@
     color: $font-color;
     font-size: 2.2em;
     flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   div:first-child {
     background-color: aqua;
   }
+
   div:nth-child(2) {
     background-color: crimson;
     flex-grow: 5;
   }
+
   div:nth-child(3) {
     background-color: coral;
     flex-grow: 5;
   }
+
   div:nth-child(4) {
     background-color: darkorange;
   }
+
   div:last-child {
     background-color: darkseagreen;
   }
